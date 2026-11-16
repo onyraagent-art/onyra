@@ -1201,14 +1201,38 @@ td:first-child { color: var(--silver); }
 .footer-aside { display: grid; gap: 12px; justify-items: start; }
 .x-link { display: inline-flex; align-items: center; gap: 8px; }
 .x-link svg { width: 15px; height: 15px; }
-.footer-legal {
+.footer-end {
   width: min(var(--wrap), calc(100% - 40px));
   margin: 28px auto 0;
   padding: 18px 0 32px;
   border-top: 1px solid var(--line);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 12px 28px;
+}
+.footer-legal {
+  flex: 1 1 16rem;
+  margin: 0;
   color: var(--faint);
   font-size: 0.92rem;
 }
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+  flex: none;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.github-link svg { width: 18px; height: 18px; }
+.site-footer .github-link:hover { color: var(--silver); }
+.source-line { margin-top: 28px; }
 
 .toast {
   position: fixed;
@@ -1351,7 +1375,7 @@ td:first-child { color: var(--silver); }
     border-radius: 18px;
     z-index: 80;
   }
-  .wrap, .header-bar, .footer-legal { width: min(var(--wrap), calc(100% - 72px)); }
+  .wrap, .header-bar, .footer-end { width: min(var(--wrap), calc(100% - 72px)); }
 }
 
 @media (prefers-reduced-motion: reduce) {

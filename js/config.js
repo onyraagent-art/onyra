@@ -13,5 +13,6 @@ window.ONYRA = {
   contractAddress: "",
   xHandle: "@onyraai",
   xUrl: "https://x.com/onyraai",
+  githubUrl: "https://github.com/onyraagent-art/onyra",
   tagline: "The agent that never sleeps."
 };

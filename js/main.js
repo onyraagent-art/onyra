@@ -80,6 +80,11 @@
         el.setAttribute("href", cfg.xUrl);
       });
     }
+    if (cfg.githubUrl) {
+      document.querySelectorAll("[data-github-link]").forEach(function (el) {
+        el.setAttribute("href", cfg.githubUrl);
+      });
+    }
     const year = String(new Date().getFullYear());
     document.querySelectorAll("[data-year]").forEach(function (el) {
       el.textContent = year;
