@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wallet — Onyra</title>
+  <meta name="description" content="The Onyra wallet pays for APIs and compute per use, inside spending limits and approvals you set, and leaves an on-chain receipt.">
+  <link rel="canonical" href="https://onyraai.com/wallet/">
+  <meta name="theme-color" content="#fafaf7">
+  <meta name="color-scheme" content="light">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Onyra">
+  <meta property="og:title" content="The agent wallet — Onyra">
+  <meta property="og:description" content="The Onyra wallet pays for APIs and compute per use, inside spending limits and approvals you set, and leaves an on-chain receipt.">
+  <meta property="og:url" content="https://onyraai.com/wallet/">
+  <meta property="og:image" content="https://onyraai.com/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Onyra wordmark on onyx, with the line: the agent that never sleeps.">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@onyraai">
+  <meta name="twitter:title" content="The agent wallet — Onyra">
+  <meta name="twitter:description" content="The Onyra wallet pays for APIs and compute per use, inside spending limits and approvals you set, and leaves an on-chain receipt.">
+  <meta name="twitter:image" content="https://onyraai.com/assets/og.png">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <div class="header-bar">
+      <a class="brand" href="/">
+        <img class="brand-mark" src="/assets/mark.svg" width="28" height="28" alt="">
+        <span class="brand-word">onyra</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span>
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="/agent/">Agent</a></li><li><a href="/cloud/">Cloud</a></li><li><a href="/wallet/" aria-current="page">Wallet</a></li><li><a href="/token/">Token</a></li><li><a href="/docs/">Docs</a></li><li><a href="/roadmap/">Roadmap</a></li>
+        </ul>
+        <a class="btn btn-primary nav-cta" href="/docs/">Read the docs</a>
+      </nav>
+      <a class="btn btn-primary header-cta" href="/docs/">Read the docs</a>
+    </div>
+  </header>
+  <main id="main">
+    <header class="page-hero">
+      <div class="aurora" aria-hidden="true"></div>
+      <div class="stars" aria-hidden="true"></div>
+      <div class="wrap">
+        <p class="kicker">Wallet</p>
+        <h1>A wallet with a ceiling.</h1>
+        <p class="lede">The agent has a wallet of its own, separate from yours. It is how Onyra pays for the APIs and the compute a task actually uses. You fund it on purpose. You decide how far it can go.</p>
+        <p class="status"><span class="pill now"><span class="dot" aria-hidden="true"></span>Not live</span> <span>There is no wallet to fund, and no transaction to show. The receipt below is an example of the record the wallet is designed to leave.</span></p>
+      </div>
+    </header>
+
+    <section class="section" style="border-top:0;padding-top:8px">
+      <div class="wrap">
+        <div class="utility">
+          <article class="reveal">
+            <p class="kicker">01</p>
+            <h3>Separate on purpose</h3>
+            <p>The agent wallet is not your personal wallet with a new label. You move funds into it when you mean to. What the agent can spend is what you put there, and no further than the ceiling.</p>
+          </article>
+          <article class="reveal">
+            <p class="kicker">02</p>
+            <h3>Per use, not a retainer</h3>
+            <p>APIs and compute are billed for the calls a task made. The agent is designed to pay those costs from its wallet as they happen, rather than hiding them inside a flat story about “unlimited” work.</p>
+          </article>
+          <article class="reveal">
+            <p class="kicker">03</p>
+            <h3>A ceiling, and a rule</h3>
+            <p>You set the most the wallet may spend. Under that line, auto mode may settle a cost the task already incurred. Over that line, it waits for you. The safety judge can also refuse a plan that spends outside the rules you wrote down.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="receipt-title">
+      <div class="wrap demo-grid">
+        <div class="reveal">
+          <p class="kicker">04 — Receipts</p>
+          <h2 id="receipt-title">A payment you can match.</h2>
+          <p>When the wallet is live, a payment is meant to leave an on-chain receipt you can tie back to a task: what it was for, and the amount. Until then there is no hash to copy and no explorer link to trust.</p>
+          <p class="fine">If someone sends you a contract address or a transaction and calls it Onyra, check this site. The address is published in one file, <code>js/config.js</code>, and today that file is empty.</p>
+        </div>
+        <figure class="receipt reveal">
+          <figcaption>Example receipt — not a transaction</figcaption>
+          <dl>
+            <div><dt>Task</dt><dd>Host the night log</dd></div>
+            <div><dt>Paid for</dt><dd>Model calls used by that task</dd></div>
+            <div><dt>Rule</dt><dd>Inside the ceiling you set</dd></div>
+            <div><dt>On-chain</dt><dd>A transaction id appears here when the wallet is live</dd></div>
+          </dl>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker">05 — What it will not do</p>
+          <h2>The ceiling is the product.</h2>
+        </div>
+        <ul class="feature-grid">
+          <li class="card reveal">
+            <h3>No blank check</h3>
+            <p>Auto mode is not permission to spend without a limit. The limit is yours, and crossing it is a stop, not a surprise.</p>
+          </li>
+          <li class="card reveal">
+            <h3>No quiet mixing</h3>
+            <p>The agent does not spend from a wallet you use for other things. Its funds are the ones you moved, for this purpose.</p>
+          </li>
+          <li class="card reveal">
+            <h3>No hidden call</h3>
+            <p>A payment is meant to be matchable to a task. A charge you cannot connect to work is a failure of the design, not a feature of it.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap reveal">
+        <div class="callout">
+          <h2>The token is not the wallet.</h2>
+          <p><span data-ticker>$ONYRA</span> is planned as one way to buy cloud credits, and as a stake and a vote later. The wallet is how a task pays for what it used. They meet. They are not the same object, and neither one is live.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="/token/">Read the token draft</a>
+            <a class="btn btn-ghost" href="/cloud/">Onyra Cloud</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="/">
+          <img class="brand-mark" src="/assets/mark.svg" width="28" height="28" alt="">
+          <span class="brand-word">onyra</span>
+        </a>
+        <p>The agent that never sleeps.</p>
+      </div>
+      <nav aria-label="Footer">
+        <p class="footer-label">Navigate</p>
+        <ul>
+          <li><a href="/agent/">Agent</a></li>
+          <li><a href="/cloud/">Cloud</a></li>
+          <li><a href="/wallet/">Wallet</a></li>
+          <li><a href="/token/">Token</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="More">
+        <p class="footer-label">Visit</p>
+        <ul>
+          <li><a href="/docs/">Docs</a></li>
+          <li><a href="/roadmap/">Roadmap</a></li>
+          <li><a href="/docs/#install">Install</a></li>
+        </ul>
+      </nav>
+      <div class="footer-aside">
+        <p class="footer-label">Contract</p>
+        <button type="button" class="ca-chip" data-ca-copy>
+          <span data-ca-label>CA: coming soon</span>
+          <svg class="ca-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="8" y="8" width="11" height="11" rx="2"/><path d="M6 16H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        </button>
+        <a class="x-link" data-x-link href="https://x.com/onyraai" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M14.7 10.3 22.4 1.5h-1.8l-6.7 7.6L8.2 1.5H1.6l8.1 11.8L1.6 22.5h1.8l7.1-8.1 5.7 8.1h6.6l-8.1-12.2Zm-2.5 2.8-.8-1.2L4.2 3h2.8l5.3 7.5.8 1.2 7 10h-2.8l-5.1-7.6Z"/></svg>
+          <span data-x-handle>@onyraai</span>
+        </a>
+      </div>
+    </div>
+    <p class="footer-legal">© <span data-year>2026</span> Onyra. Pre-release. The agent is not yet available to install, and the $ONYRA contract is not live. Figures on the token page are a draft, not an offer.</p>
+  </footer>
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+  <script src="/js/config.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

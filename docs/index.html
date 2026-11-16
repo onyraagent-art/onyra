@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Docs — Onyra</title>
+  <meta name="description" content="How Onyra is meant to work: a quick start, answers to common questions, and installers for macOS, Windows, and Linux — not available yet.">
+  <link rel="canonical" href="https://onyraai.com/docs/">
+  <meta name="theme-color" content="#fafaf7">
+  <meta name="color-scheme" content="light">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Onyra">
+  <meta property="og:title" content="Docs — Onyra">
+  <meta property="og:description" content="How Onyra is meant to work: a quick start, answers to common questions, and installers for macOS, Windows, and Linux — not available yet.">
+  <meta property="og:url" content="https://onyraai.com/docs/">
+  <meta property="og:image" content="https://onyraai.com/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Onyra wordmark on onyx, with the line: the agent that never sleeps.">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@onyraai">
+  <meta name="twitter:title" content="Docs — Onyra">
+  <meta name="twitter:description" content="How Onyra is meant to work: a quick start, answers to common questions, and installers for macOS, Windows, and Linux — not available yet.">
+  <meta name="twitter:image" content="https://onyraai.com/assets/og.png">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <div class="header-bar">
+      <a class="brand" href="/">
+        <img class="brand-mark" src="/assets/mark.svg" width="28" height="28" alt="">
+        <span class="brand-word">onyra</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span>
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="/agent/">Agent</a></li><li><a href="/cloud/">Cloud</a></li><li><a href="/wallet/">Wallet</a></li><li><a href="/token/">Token</a></li><li><a href="/docs/" aria-current="page">Docs</a></li><li><a href="/roadmap/">Roadmap</a></li>
+        </ul>
+        <a class="btn btn-primary nav-cta" href="/roadmap/">View the roadmap</a>
+      </nav>
+      <a class="btn btn-primary header-cta" href="/roadmap/">View the roadmap</a>
+    </div>
+  </header>
+  <main id="main">
+    <header class="page-hero">
+      <div class="aurora" aria-hidden="true"></div>
+      <div class="stars" aria-hidden="true"></div>
+      <div class="wrap">
+        <p class="kicker">Docs</p>
+        <h1>Read this before you wait.</h1>
+        <p class="lede">A short account of how Onyra is meant to work, written while the installers are still being prepared. If a sentence here and a button somewhere else disagree, believe the sentence that says you cannot install it yet.</p>
+        <p class="status"><span class="pill now"><span class="dot" aria-hidden="true"></span>Pre-release</span> <span>There is no download on this page. Follow <a data-x-link href="https://x.com/onyraai" target="_blank" rel="noopener noreferrer"><span data-x-handle>@onyraai</span></a> for the public note when a build exists.</span></p>
+      </div>
+    </header>
+
+    <section class="section" id="quick-start" style="border-top:0;padding-top:12px" aria-labelledby="start-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker">01 — Quick start</p>
+          <h2 id="start-title">The path, once a build exists.</h2>
+        </div>
+        <ol class="steps">
+          <li class="reveal">
+            <span class="num">1</span>
+            <div>
+              <h3>Install, when you can</h3>
+              <p>Builds for macOS, Windows, and Linux are not published. When they are, they will be linked from the <a href="#install">install section</a> on this page. There is no archive to fetch in the meantime.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="num">2</span>
+            <div>
+              <h3>Write a brief</h3>
+              <p>Say the outcome in plain language. The agent is meant to turn that into a plan on disk before it edits anything.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="num">3</span>
+            <div>
+              <h3>Choose the room</h3>
+              <p>Your computer, for work that should stay on the machine in front of you. Onyra Cloud, for work that should continue after the lid closes, and for a web app that needs a live link.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="num">4</span>
+            <div>
+              <h3>Set the ceiling first</h3>
+              <p>Before auto mode can pay for anything, you set a spending ceiling and the rule for what happens at the line. The wallet is not live, so this step cannot be done yet. It is written here so it is not an afterthought later.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="num">5</span>
+            <div>
+              <h3>Read the link and the receipt</h3>
+              <p>A finished web task is meant to end with a live link and, when money moved, a receipt you can match to the task. Both are part of the result, not a courtesy email.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="words-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker">02 — Words</p>
+          <h2 id="words-title">The few terms worth keeping straight.</h2>
+        </div>
+        <dl class="defs">
+          <div class="reveal">
+            <dt>Brief</dt>
+            <dd>The outcome you asked for, in your words. The agent writes a plan from it. The plan is a file.</dd>
+          </div>
+          <div class="reveal">
+            <dt>Live link</dt>
+            <dd>A public URL for a web app the agent produced, hosted so your laptop is not the server. Example addresses on this site are not live.</dd>
+          </div>
+          <div class="reveal">
+            <dt>Safety judge</dt>
+            <dd>A check that runs before auto mode takes a sensitive step: spending, deleting, or publishing. It can refuse the plan.</dd>
+          </div>
+          <div class="reveal">
+            <dt>Ceiling</dt>
+            <dd>The most the agent wallet may spend. Under it, a task may settle. Over it, the agent waits.</dd>
+          </div>
+          <div class="reveal">
+            <dt>Onyra Cloud</dt>
+            <dd>The agent's own machines. Tasks there are meant to continue when your computer sleeps. Not open yet.</dd>
+          </div>
+          <div class="reveal">
+            <dt>Agent wallet</dt>
+            <dd>A wallet in the agent's name, funded by you, separate from your personal wallet. Not live.</dd>
+          </div>
+          <div class="reveal">
+            <dt><span data-ticker>$ONYRA</span></dt>
+            <dd>The planned token for cloud credits, priority, and governance. Not launched. The contract address is not published.</dd>
+          </div>
+          <div class="reveal">
+            <dt>Helper</dt>
+            <dd>Another agent given a slice of a brief. It returns work. It does not get a quieter set of rules.</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="faq-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker">03 — Questions</p>
+          <h2 id="faq-title">Straight answers.</h2>
+        </div>
+        <div class="faq reveal">
+          <details>
+            <summary>Can I install Onyra today?</summary>
+            <div class="faq-body"><p>No. Onyra is pre-release. Installers for macOS, Windows, and Linux are not published, and this site does not hide a download behind another name. When a build is real, it will be linked from the install section.</p></div>
+          </details>
+          <details>
+            <summary>What is Onyra for?</summary>
+            <div class="faq-body"><p>You leave a brief. Onyra is being built to do the work: edit files, run commands, use a browser, and publish a web app at a live link. It can do that on your computer, or in Onyra Cloud, which is meant to keep running after you close the lid. When a task needs a paid API, the agent pays from its own wallet, inside limits you set.</p></div>
+          </details>
+          <details>
+            <summary>What is a live link?</summary>
+            <div class="faq-body"><p>A public URL for a web app the agent has produced, hosted so the page stays up without your laptop acting as the server. The exact shape of those URLs will be documented when Onyra Cloud opens. Addresses in the homepage demonstration are examples.</p></div>
+          </details>
+          <details>
+            <summary>What happens when the laptop closes?</summary>
+            <div class="faq-body"><p>Work on the local machine pauses when the machine sleeps. Onyra Cloud is the other desk: tasks there are meant to continue, and services the agent starts there are meant to stay available. Cloud is not open yet.</p></div>
+          </details>
+          <details>
+            <summary>How will spending work?</summary>
+            <div class="faq-body"><p>The agent has a wallet of its own, separate from yours. You fund it on purpose. You set a ceiling, and a rule for anything that would cross it. Payments are per use — the calls and compute that task consumed — and are designed to leave an on-chain receipt. None of this is live. The <a href="/wallet/">wallet page</a> is the longer version.</p></div>
+          </details>
+          <details>
+            <summary>Can it spend without approval?</summary>
+            <div class="faq-body"><p>Not past the rules you set. Under the ceiling, auto mode may settle a cost the task already incurred. Over the ceiling, it waits. The safety judge is there to stop a plan that spends, deletes, or publishes outside those rules. You should still read the receipt.</p></div>
+          </details>
+          <details>
+            <summary>What is the safety judge?</summary>
+            <div class="faq-body"><p>A check that runs before auto mode takes a sensitive step. It reads the plan and can refuse it. It is not a promise that nothing can go wrong. It is a gate, so “keep going” is not treated as permission to ignore the limits you wrote down.</p></div>
+          </details>
+          <details>
+            <summary>Where does memory live?</summary>
+            <div class="faq-body"><p>On disk. Plans, notes, and preferences are files you can open, not a transcript trapped in a chat window. You can read them, move them, and delete them.</p></div>
+          </details>
+          <details>
+            <summary>What is $ONYRA for?</summary>
+            <div class="faq-body"><p>Three uses are planned: paying for Onyra Cloud credits and compute, staking for priority on the queue, and governance over treasury and parameters. None of these are active. The contract has not launched. The <a href="/token/">token page</a> labels the allocation as a draft.</p></div>
+          </details>
+          <details>
+            <summary>Where is the contract address?</summary>
+            <div class="faq-body"><p>It is not live. Every page shows “CA: coming soon”. When an address exists, it will be entered once, in <code>js/config.js</code>, and the site will show that same address everywhere. Do not trust an address sent from anywhere else.</p></div>
+          </details>
+          <details>
+            <summary>Is this an offer to buy the token?</summary>
+            <div class="faq-body"><p>No. The token page is a draft of how $ONYRA is intended to work, including placeholder percentages. It is not an offer, a solicitation, or a promise of profit or supply.</p></div>
+          </details>
+          <details>
+            <summary>How will I know when I can install it?</summary>
+            <div class="faq-body"><p>Follow <a data-x-link href="https://x.com/onyraai" target="_blank" rel="noopener noreferrer"><span data-x-handle>@onyraai</span></a> on X. That is the public channel for this pre-release. There is no mailing list and no download button on this site.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="install" aria-labelledby="install-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker">04 — Install</p>
+          <h2 id="install-title">Three systems. None of them yet.</h2>
+          <p>The installers will cover the local agent: files, commands, the browser, memory on disk, and the safety judge. Cloud, the wallet, and the token are later, and they are not bundled in as if they were already open.</p>
+        </div>
+        <ul class="install-grid">
+          <li class="card reveal">
+            <h3>macOS</h3>
+            <p>A build for Apple silicon and for Intel. The installer is not available, and there is no disk image to fetch.</p>
+            <p class="pill">Coming soon</p>
+          </li>
+          <li class="card reveal">
+            <h3>Windows</h3>
+            <p>A build for Windows. The installer is not available, and there is no setup package on this site.</p>
+            <p class="pill">Coming soon</p>
+          </li>
+          <li class="card reveal">
+            <h3>Linux</h3>
+            <p>A build for common desktop Linux. The installer is not available, and there is no package repository to add.</p>
+            <p class="pill">Coming soon</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="/">
+          <img class="brand-mark" src="/assets/mark.svg" width="28" height="28" alt="">
+          <span class="brand-word">onyra</span>
+        </a>
+        <p>The agent that never sleeps.</p>
+      </div>
+      <nav aria-label="Footer">
+        <p class="footer-label">Navigate</p>
+        <ul>
+          <li><a href="/agent/">Agent</a></li>
+          <li><a href="/cloud/">Cloud</a></li>
+          <li><a href="/wallet/">Wallet</a></li>
+          <li><a href="/token/">Token</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="More">
+        <p class="footer-label">Visit</p>
+        <ul>
+          <li><a href="/docs/">Docs</a></li>
+          <li><a href="/roadmap/">Roadmap</a></li>
+          <li><a href="/docs/#install">Install</a></li>
+        </ul>
+      </nav>
+      <div class="footer-aside">
+        <p class="footer-label">Contract</p>
+        <button type="button" class="ca-chip" data-ca-copy>
+          <span data-ca-label>CA: coming soon</span>
+          <svg class="ca-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="8" y="8" width="11" height="11" rx="2"/><path d="M6 16H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        </button>
+        <a class="x-link" data-x-link href="https://x.com/onyraai" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M14.7 10.3 22.4 1.5h-1.8l-6.7 7.6L8.2 1.5H1.6l8.1 11.8L1.6 22.5h1.8l7.1-8.1 5.7 8.1h6.6l-8.1-12.2Zm-2.5 2.8-.8-1.2L4.2 3h2.8l5.3 7.5.8 1.2 7 10h-2.8l-5.1-7.6Z"/></svg>
+          <span data-x-handle>@onyraai</span>
+        </a>
+      </div>
+    </div>
+    <p class="footer-legal">© <span data-year>2026</span> Onyra. Pre-release. The agent is not yet available to install, and the $ONYRA contract is not live. Figures on the token page are a draft, not an offer.</p>
+  </footer>
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+  <script src="/js/config.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

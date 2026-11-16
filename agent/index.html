@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agent — Onyra</title>
+  <meta name="description" content="What Onyra is built to do: real files and commands, a browser, memory on disk, a safety judge, helpers, chat apps, and MCP.">
+  <link rel="canonical" href="https://onyraai.com/agent/">
+  <meta name="theme-color" content="#fafaf7">
+  <meta name="color-scheme" content="light">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Onyra">
+  <meta property="og:title" content="The agent — Onyra">
+  <meta property="og:description" content="What Onyra is built to do: real files and commands, a browser, memory on disk, a safety judge, helpers, chat apps, and MCP.">
+  <meta property="og:url" content="https://onyraai.com/agent/">
+  <meta property="og:image" content="https://onyraai.com/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Onyra wordmark on onyx, with the line: the agent that never sleeps.">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@onyraai">
+  <meta name="twitter:title" content="The agent — Onyra">
+  <meta name="twitter:description" content="What Onyra is built to do: real files and commands, a browser, memory on disk, a safety judge, helpers, chat apps, and MCP.">
+  <meta name="twitter:image" content="https://onyraai.com/assets/og.png">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <div class="header-bar">
+      <a class="brand" href="/">
+        <img class="brand-mark" src="/assets/mark.svg" width="28" height="28" alt="">
+        <span class="brand-word">onyra</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span>
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="/agent/" aria-current="page">Agent</a></li><li><a href="/cloud/">Cloud</a></li><li><a href="/wallet/">Wallet</a></li><li><a href="/token/">Token</a></li><li><a href="/docs/">Docs</a></li><li><a href="/roadmap/">Roadmap</a></li>
+        </ul>
+        <a class="btn btn-primary nav-cta" href="/docs/">Read the docs</a>
+      </nav>
+      <a class="btn btn-primary header-cta" href="/docs/">Read the docs</a>
+    </div>
+  </header>
+  <main id="main">
+    <header class="page-hero">
+      <div class="aurora" aria-hidden="true"></div>
+      <div class="stars" aria-hidden="true"></div>
+      <div class="wrap">
+        <p class="kicker">Agent</p>
+        <h1>Hands on the machine.</h1>
+        <p class="lede">Onyra is not a chat window with opinions. It is being built to touch files, run commands, remember on disk, and stop itself when a step crosses a line you drew.</p>
+        <p class="status"><span class="pill now"><span class="dot" aria-hidden="true"></span>Pre-release</span> <span>These are the capabilities as designed. You cannot install the agent today. <a href="/roadmap/">The roadmap</a> is the order they are planned to arrive.</span></p>
+      </div>
+    </header>
+
+    <section class="section" style="border-top:0;padding-top:12px">
+      <div class="wrap">
+        <article class="chapter reveal">
+          <p class="idx">01</p>
+          <div>
+            <h2>Files and commands</h2>
+            <p>The work lives in a directory. Onyra edits the files and runs the commands the task actually needs. You can open that directory and read what changed. Nothing important is trapped in a scroll of messages.</p>
+          </div>
+          <pre class="plate"><span class="tag">Example</span><span class="cmd">edit</span>  notes/brief.md
+<span class="cmd">run</span>   ls -la ./site</pre>
+        </article>
+        <article class="chapter reveal">
+          <p class="idx">02</p>
+          <div>
+            <h2>A browser</h2>
+            <p>Some tasks are not finished until someone looks at the page. The agent can open a browser to read documentation, check a result, or confirm the link it just published. The browser is a tool, not a place the work disappears into.</p>
+          </div>
+          <pre class="plate"><span class="tag">Example</span><span class="cmd">open</span>  the page it just hosted
+<span class="cmd">read</span>  the title, the layout, the broken link</pre>
+        </article>
+        <article class="chapter reveal">
+          <p class="idx">03</p>
+          <div>
+            <h2>Memory on disk</h2>
+            <p>Plans, notes, and preferences are written down as files. A later task can pick them up. You can move them, edit them, or delete them. Memory you cannot open is not memory you control.</p>
+          </div>
+          <pre class="plate"><span class="tag">Example</span>memory/
+  brief.md
+  plan.md
+  preferences.md</pre>
+        </article>
+        <article class="chapter reveal">
+          <p class="idx">04</p>
+          <div>
+            <h2>Auto mode, with a judge</h2>
+            <p>Auto mode is allowed to continue without asking on every small step. Before it spends, deletes, or publishes, a safety judge reads the plan and can refuse it. The judge is a gate, not a promise that nothing can go wrong. You still set the rules, and you can still read the result.</p>
+          </div>
+          <pre class="plate"><span class="tag">Example</span><span class="cmd">judge</span>  spend under ceiling
+<span class="cmd">judge</span>  no secrets in the page
+<span class="cmd">hold</span>   if either fails</pre>
+        </article>
+        <article class="chapter reveal">
+          <p class="idx">05</p>
+          <div>
+            <h2>Delegation</h2>
+            <p>A large brief can be split. Onyra can hand a slice to a helper agent and gather what comes back. You still see one brief and one result. Helpers do not get a quieter set of rules than the agent you spoke to.</p>
+          </div>
+          <pre class="plate"><span class="tag">Example</span><span class="cmd">delegate</span>  research the sources
+<span class="cmd">delegate</span>  draft the page
+<span class="cmd">return</span>    one link, one report</pre>
+        </article>
+        <article class="chapter reveal">
+          <p class="idx">06</p>
+          <div>
+            <h2>Chat apps</h2>
+            <p>The desk does not have to live in one window. Telegram, Discord, and Slack are planned as doors to the same agent: you send a brief from the place you already are, and the work still lands in files, a link, and a receipt.</p>
+          </div>
+          <pre class="plate"><span class="tag">Planned doors</span>Telegram
+Discord
+Slack</pre>
+        </article>
+        <article class="chapter reveal">
+          <p class="idx">07</p>
+          <div>
+            <h2>MCP, plugins, skills</h2>
+            <p>The agent is meant to grow by connection, not by becoming a closed box. MCP servers, plugins, and skills are how a new tool joins the desk. What it is allowed to spend and publish still passes through the same ceiling and the same judge.</p>
+          </div>
+          <pre class="plate"><span class="tag">Example</span><span class="cmd">connect</span>  an MCP server
+<span class="cmd">load</span>     a skill
+<span class="cmd">limit</span>    unchanged</pre>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap reveal">
+        <div class="callout">
+          <h2>The machine is only half the desk.</h2>
+          <p>Work on your computer pauses when the computer does. The cloud is the room that stays open, and the wallet is how the calls get paid. Neither is live yet. Both are written down so the build can be held to them.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="/cloud/">Onyra Cloud</a>
+            <a class="btn btn-ghost" href="/wallet/">The wallet</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="/">
+          <img class="brand-mark" src="/assets/mark.svg" width="28" height="28" alt="">
+          <span class="brand-word">onyra</span>
+        </a>
+        <p>The agent that never sleeps.</p>
+      </div>
+      <nav aria-label="Footer">
+        <p class="footer-label">Navigate</p>
+        <ul>
+          <li><a href="/agent/">Agent</a></li>
+          <li><a href="/cloud/">Cloud</a></li>
+          <li><a href="/wallet/">Wallet</a></li>
+          <li><a href="/token/">Token</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="More">
+        <p class="footer-label">Visit</p>
+        <ul>
+          <li><a href="/docs/">Docs</a></li>
+          <li><a href="/roadmap/">Roadmap</a></li>
+          <li><a href="/docs/#install">Install</a></li>
+        </ul>
+      </nav>
+      <div class="footer-aside">
+        <p class="footer-label">Contract</p>
+        <button type="button" class="ca-chip" data-ca-copy>
+          <span data-ca-label>CA: coming soon</span>
+          <svg class="ca-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="8" y="8" width="11" height="11" rx="2"/><path d="M6 16H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        </button>
+        <a class="x-link" data-x-link href="https://x.com/onyraai" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M14.7 10.3 22.4 1.5h-1.8l-6.7 7.6L8.2 1.5H1.6l8.1 11.8L1.6 22.5h1.8l7.1-8.1 5.7 8.1h6.6l-8.1-12.2Zm-2.5 2.8-.8-1.2L4.2 3h2.8l5.3 7.5.8 1.2 7 10h-2.8l-5.1-7.6Z"/></svg>
+          <span data-x-handle>@onyraai</span>
+        </a>
+      </div>
+    </div>
+    <p class="footer-legal">© <span data-year>2026</span> Onyra. Pre-release. The agent is not yet available to install, and the $ONYRA contract is not live. Figures on the token page are a draft, not an offer.</p>
+  </footer>
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+  <script src="/js/config.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

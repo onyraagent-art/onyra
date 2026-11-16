@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Onyra — The agent that never sleeps</title>
+  <meta name="description" content="Onyra is the agent that never sleeps. It builds on your computer or in its own cloud, hosts the work at a live link, and pays for APIs from its own wallet.">
+  <link rel="canonical" href="https://onyraai.com/">
+  <meta name="theme-color" content="#fafaf7">
+  <meta name="color-scheme" content="light">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Onyra">
+  <meta property="og:title" content="Onyra — The agent that never sleeps">
+  <meta property="og:description" content="Onyra is the agent that never sleeps. It builds on your computer or in its own cloud, hosts the work at a live link, and pays for APIs from its own wallet.">
+  <meta property="og:url" content="https://onyraai.com/">
+  <meta property="og:image" content="https://onyraai.com/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Onyra wordmark on onyx, with the line: the agent that never sleeps.">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@onyraai">
+  <meta name="twitter:title" content="Onyra — The agent that never sleeps">
+  <meta name="twitter:description" content="Onyra is the agent that never sleeps. It builds on your computer or in its own cloud, hosts the work at a live link, and pays for APIs from its own wallet.">
+  <meta name="twitter:image" content="https://onyraai.com/assets/og.png">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "Onyra",
+        "url": "https://onyraai.com",
+        "description": "Onyra is an autonomous agent with its own cloud and its own on-chain wallet. Pre-release.",
+        "sameAs": ["https://x.com/onyraai"]
+      },
+      {
+        "@type": "WebSite",
+        "name": "Onyra",
+        "url": "https://onyraai.com"
+      }
+    ]
+  }
+  </script>
+
+</head>
+<body>
+
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <div class="header-bar">
+      <a class="brand" href="/">
+        <img class="brand-mark" src="/assets/mark.svg" width="28" height="28" alt="">
+        <span class="brand-word">onyra</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span>
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="/agent/">Agent</a></li><li><a href="/cloud/">Cloud</a></li><li><a href="/wallet/">Wallet</a></li><li><a href="/token/">Token</a></li><li><a href="/docs/">Docs</a></li><li><a href="/roadmap/">Roadmap</a></li>
+        </ul>
+        <a class="btn btn-primary nav-cta" href="/docs/">Read the docs</a>
+      </nav>
+      <a class="btn btn-primary header-cta" href="/docs/">Read the docs</a>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <canvas class="sky" data-sky aria-hidden="true"></canvas>
+      <div class="aurora" aria-hidden="true"></div>
+      <div class="hero-scrim" aria-hidden="true"></div>
+      <div class="wrap hero-copy">
+        <p class="kicker"><span class="pill now"><span class="dot" aria-hidden="true"></span>Pre-release</span> Onyra Agent</p>
+        <h1>The agent<br>that <em>never</em><br>sleeps.</h1>
+        <p class="lede">Onyra keeps a desk in its own cloud and a wallet in its own name. Leave a brief. It is built to do the work, host it at a live link, and pay for the calls it makes — inside limits you set.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="/docs/">Read the docs</a>
+          <a class="btn btn-ghost" href="/agent/">See the agent</a>
+        </div>
+      </div>
+      <div class="wrap hero-foot">
+        <p class="hero-sig">Prompt in <span class="arrow" aria-hidden="true">→</span> Live link out.</p>
+        <div class="hero-foot-meta">
+          <p>Own cloud · Own wallet</p>
+          <button type="button" class="motion-btn" data-motion-toggle aria-pressed="false">Pause motion</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="stage" aria-labelledby="live-title">
+      <div class="wrap">
+        <div class="stage-head reveal">
+          <div>
+            <p class="kicker">01 // Live tools</p>
+            <h2 id="live-title">Streaming chat, live tools.</h2>
+            <p class="lede">A scripted picture of the Onyra desk. Messages, tool calls, and a live link play on a loop. It is not a session you can join, and the app is not available to install.</p>
+          </div>
+          <button type="button" class="btn btn-ghost" data-stage-toggle aria-pressed="false">Pause</button>
+        </div>
+        <div class="stage-tabs reveal" role="tablist" aria-label="Scripted desks">
+          <button type="button" role="tab" id="stage-tab-0" data-stage-tab="0" aria-selected="true" aria-controls="stage-panel">01 Live tools</button>
+          <button type="button" role="tab" id="stage-tab-1" data-stage-tab="1" aria-selected="false" tabindex="-1" aria-controls="stage-panel">02 Any model</button>
+          <button type="button" role="tab" id="stage-tab-2" data-stage-tab="2" aria-selected="false" tabindex="-1" aria-controls="stage-panel">03 Own cloud</button>
+          <button type="button" role="tab" id="stage-tab-3" data-stage-tab="3" aria-selected="false" tabindex="-1" aria-controls="stage-panel">04 Wallet</button>
+        </div>
+        <div class="app reveal" data-stage>
+          <div class="app-chrome">
+            <span class="app-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="app-name">Onyra</span>
+            <span class="app-search">Search the desk</span>
+          </div>
+          <div class="app-body">
+            <aside class="app-side" aria-label="Desk">
+              <button type="button" class="side-new" data-stage-replay>New session</button>
+              <ul class="side-nav">
+                <li>Capabilities</li>
+                <li>Activity</li>
+                <li>Plugins</li>
+                <li>Messaging</li>
+                <li>Artifacts</li>
+                <li>Scheduled jobs</li>
+                <li>Wallet</li>
+              </ul>
+              <p class="side-label">Sessions</p>
+              <ul class="sessions">
+                <li><button type="button" data-session="night-log">Night log</button></li>
+                <li><button type="button" data-session="two-models">Two models</button></li>
+                <li><button type="button" data-session="cloud-desk">Cloud desk</button></li>
+                <li><button type="button" data-session="ceiling">Ceiling check</button></li>
+              </ul>
+            </aside>
+            <div class="app-main" id="stage-panel" role="tabpanel" aria-labelledby="stage-tab-0">
+              <div class="chat" data-chat>
+                <div class="bubble user"><p class="bubble-who">You</p><p class="bubble-say">Build a one-page night log and host it. Keep the laptop out of it.</p></div>
+                <div class="bubble agent"><p class="bubble-who">Onyra</p><p class="bubble-say">Reading the brief. I'll write the page, check it, and publish it from Onyra Cloud.</p></div>
+                <details class="tool" open><summary><span class="tool-name">read_file</span><span class="tool-args">notes/brief.md</span></summary><pre class="tool-log">18 lines · no secrets in the brief</pre></details>
+                <details class="tool" open><summary><span class="tool-name">run_command</span><span class="tool-args">python3 -m http.server</span></summary><pre class="tool-log">listening · local check only</pre></details>
+                <details class="tool" open><summary><span class="tool-name">edit_file</span><span class="tool-args">site/index.html</span></summary><pre class="tool-log">wrote the night log</pre></details>
+                <div class="diff-card"><span class="diff-file">site/index.html</span><span class="diff-stat">1 file changed +1 −1</span></div>
+                <details class="tool" open><summary><span class="tool-name">deploy</span><span class="tool-args">onyra cloud</span></summary><pre class="tool-log">publishing · link assigned</pre></details>
+                <div class="link-ready"><p class="link-kicker">Live link ready</p><p class="link-url">app.onyraai.com/night-log</p><p class="link-note">Example address. Not a hosted app.</p></div>
+              </div>
+              <div class="sr-only" hidden data-stage-at></div>
+              <div class="composer">
+                <label class="sr-only" for="stage-input">Message</label>
+                <input id="stage-input" type="text" placeholder="Message the night desk" autocomplete="off" disabled>
+                <div class="composer-chips">
+                  <span class="chip" data-model>Onyra · balanced</span>
+                  <span class="chip" data-status>Scripted</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="duties-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker">02 — Duties</p>
+          <h2 id="duties-title">Three things it is for.</h2>
+        </div>
+        <ol class="duties">
+          <li class="reveal">
+            <span class="idx">01</span>
+            <div>
+              <h3>Build</h3>
+              <p>Real files, real commands, and a browser when the work needs the web. The result is something you can open, not a transcript that vanishes when the chat does.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="idx">02</span>
+            <div>
+              <h3>Host</h3>
+              <p>A web app it produces is meant to live at its own link — on your machine, or in Onyra Cloud, which stays up when the lid is closed.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span class="idx">03</span>
+            <div>
+              <h3>Pay</h3>
+              <p>APIs and compute are billed per use. The agent pays from a wallet you fund and cap. Each payment is designed to leave a receipt you can read on-chain.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="demo-title">
+      <div class="wrap demo-grid">
+        <div class="reveal">
+          <p class="kicker">03 — Demonstration</p>
+          <h2 id="demo-title">Prompt in. Live link out.</h2>
+          <p class="lede">A scripted night desk. Not a live session, and not a measure of speed. The address in the window is an example, not a hosted app.</p>
+          <p class="fine" style="margin-top:16px">Onyra cannot be installed yet. This is the shape of a task, written so you can see it before the desk exists.</p>
+        </div>
+        <div class="term reveal" data-term>
+          <div class="term-bar">
+            <span class="term-title"><span class="live-dot" aria-hidden="true"></span> Onyra · night desk</span>
+            <button type="button" class="motion-btn" data-motion-toggle aria-pressed="false">Pause motion</button>
+          </div>
+          <div class="term-screen" data-term-screen>
+            <p class="line you"><span class="who">you</span><span class="say">Build a one-page night log. Host it. Keep the laptop out of it.</span></p>
+            <p class="line onyra"><span class="who">onyra</span><span class="say">Brief received. I'll take this one in Onyra Cloud.</span></p>
+            <p class="line onyra"><span class="who">onyra</span><span class="say">Writing the page, the type, and a short note about the watch.</span></p>
+            <p class="line onyra"><span class="who">onyra</span><span class="say">Safety judge: no secrets on the page, no spend past the ceiling. Clear.</span></p>
+            <p class="line onyra"><span class="who">onyra</span><span class="say">Publishing. The page gets a link of its own.</span></p>
+            <p class="line link"><span class="who">link</span><span class="say">https://night-log.example.com</span></p>
+            <p class="line onyra"><span class="who">onyra</span><span class="say">Hosted on the agent's cloud. The calls sit inside the wallet ceiling. A receipt is ready when the wallet is live.</span></p>
+          </div>
+          <div class="sr-only" hidden data-term-at>
+            Demonstration transcript. you: Build a one-page night log. Host it. Keep the laptop out of it.
+            onyra: Brief received. I'll take this one in Onyra Cloud.
+            onyra: Writing the page, the type, and a short note about the watch.
+            onyra: Safety judge: no secrets on the page, no spend past the ceiling. Clear.
+            onyra: Publishing. The page gets a link of its own.
+            link: https://night-log.example.com
+            onyra: Hosted on the agent's cloud. The calls sit inside the wallet ceiling. A receipt is ready when the wallet is live.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="loop-title">
+      <div class="wrap loop-grid">
+        <div class="reveal">
+          <p class="kicker">04 — The loop</p>
+          <h2 id="loop-title">One task, kept moving.</h2>
+          <p>From the brief to the receipt, this is the night desk at work. It repeats until you pause it. Select a step to read it in place.</p>
+          <button type="button" class="motion-btn" data-motion-toggle aria-pressed="false">Pause motion</button>
+        </div>
+        <ol class="watch reveal" data-watch>
+          <li class="watch-step" data-step>
+            <button type="button" aria-pressed="false">
+              <span class="node" aria-hidden="true"></span>
+              <span class="watch-title">Brief</span>
+              <span class="watch-copy">The outcome, in your words.</span>
+            </button>
+          </li>
+          <li class="watch-step" data-step>
+            <button type="button" aria-pressed="false">
+              <span class="node" aria-hidden="true"></span>
+              <span class="watch-title">Plan</span>
+              <span class="watch-copy">Written to disk before any action.</span>
+            </button>
+          </li>
+          <li class="watch-step" data-step>
+            <button type="button" aria-pressed="false">
+              <span class="node" aria-hidden="true"></span>
+              <span class="watch-title">Judge</span>
+              <span class="watch-copy">Sensitive steps wait for a check.</span>
+            </button>
+          </li>
+          <li class="watch-step" data-step>
+            <button type="button" aria-pressed="false">
+              <span class="node" aria-hidden="true"></span>
+              <span class="watch-title">Build</span>
+              <span class="watch-copy">Files, commands, and a browser.</span>
+            </button>
+          </li>
+          <li class="watch-step" data-step>
+            <button type="button" aria-pressed="false">
+              <span class="node" aria-hidden="true"></span>
+              <span class="watch-title">Host</span>
+              <span class="watch-copy">A live link for the web app.</span>
+            </button>
+          </li>
+          <li class="watch-step" data-step>
+            <button type="button" aria-pressed="false">
+              <span class="node" aria-hidden="true"></span>
+              <span class="watch-title">Pay</span>
+              <span class="watch-copy">The wallet settles only the use.</span>
+            </button>
+          </li>
+          <li class="watch-step" data-step>
+            <button type="button" aria-pressed="false">
+              <span class="node" aria-hidden="true"></span>
+              <span class="watch-title">Report</span>
+              <span class="watch-copy">The link, and a receipt.</span>
+            </button>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="cap-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker">05 — Capabilities</p>
+          <h2 id="cap-title">What the desk can reach for.</h2>
+          <p>These are the tools Onyra is being built around. The order they arrive is on the roadmap. None of them can be installed today.</p>
+        </div>
+        <ul class="feature-grid">
+          <li class="card reveal">
+            <svg class="card-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5.5h10l6 6V26.5H8z"/><path d="M18 5.5v6h6"/><path d="M12 16.5h8M12 20.5h5"/></svg>
+            <p class="card-index">01</p>
+            <h3>Files and commands</h3>
+            <p>It edits real files and runs real commands, on a machine you can inspect.</p>
+          </li>
+          <li class="card reveal">
+            <svg class="card-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="7" width="22" height="16" rx="2"/><path d="M5 12h22"/><circle cx="8.5" cy="9.5" r=".8" fill="currentColor" stroke="none"/></svg>
+            <p class="card-index">02</p>
+            <h3>A browser</h3>
+            <p>When the task needs the web, it opens one: to read, to check, to confirm the page it just hosted.</p>
+          </li>
+          <li class="card reveal">
+            <svg class="card-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="16" cy="10" rx="8" ry="3"/><path d="M8 10v10c0 1.7 3.6 3 8 3s8-1.3 8-3V10"/></svg>
+            <p class="card-index">03</p>
+            <h3>Memory on disk</h3>
+            <p>Plans and preferences are files. You can open the folder. Nothing important lives only in a session.</p>
+          </li>
+          <li class="card reveal">
+            <svg class="card-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="16" cy="16" r="9"/><path d="M16 11.5V17"/><path d="M16 20.2h.01"/></svg>
+            <p class="card-index">04</p>
+            <h3>Auto mode, judged</h3>
+            <p>Auto mode can continue without a prompt on every step. A safety judge reads the plan before it spends, deletes, or publishes.</p>
+          </li>
+          <li class="card reveal">
+            <svg class="card-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="17" r="4"/><circle cx="21" cy="13" r="3"/></svg>
+            <p class="card-index">05</p>
+            <h3>Helpers</h3>
+            <p>It can hand a slice of work to another agent, then gather what comes back. You still see one brief and one result.</p>
+          </li>
+          <li class="card reveal">
+            <svg class="card-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="18" r="2.2"/><circle cx="16" cy="8.5" r="2.2"/><circle cx="24" cy="18" r="2.2"/><path d="M10 16.8 14.2 10M17.8 10 22 16.8M10.2 18h11.6"/></svg>
+            <p class="card-index">06</p>
+            <h3>Chat, MCP, skills</h3>
+            <p>Telegram, Discord, and Slack. MCP servers, plugins, and skills — the same agent, more doors.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="rooms-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker">06 — Two rooms</p>
+          <h2 id="rooms-title">A cloud that stays awake. A wallet with a ceiling.</h2>
+        </div>
+        <div class="duo">
+          <article class="reveal">
+            <p class="kicker">Cloud</p>
+            <h2>It keeps the desk when you close the lid.</h2>
+            <p>Local work pauses when the computer sleeps. Onyra Cloud is the other room: tasks continue, services stay up, and every web app the agent ships is meant to get a live link of its own.</p>
+            <p style="margin-top:18px"><a class="text-link" href="/cloud/">The cloud desk <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+          </article>
+          <article class="reveal">
+            <p class="kicker">Wallet</p>
+            <h2>It pays for what it uses.</h2>
+            <p>APIs and compute are per use. The agent pays from its own wallet, inside a ceiling and an approval rule you set. A payment can leave an on-chain receipt. The wallet is not live yet.</p>
+            <p style="margin-top:18px"><a class="text-link" href="/wallet/">The agent wallet <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="token-title">
+      <div class="wrap token-band reveal">
+        <div>
+          <p class="kicker"><span data-ticker>$ONYRA</span> · not launched</p>
+          <h2 id="token-title">A token for compute, priority, and a say.</h2>
+          <p>$ONYRA is designed to pay for cloud credits, to stake for priority on the queue, and to vote when governance opens. None of that is active. The contract address is not live.</p>
+          <div class="actions">
+            <a class="btn btn-ghost" href="/token/">Read the draft</a>
+          </div>
+        </div>
+        <div>
+          <p class="ticker" data-ticker>$ONYRA</p>
+          <button type="button" class="ca-chip" data-ca-copy>
+            <span data-ca-label>CA: coming soon</span>
+            <svg class="ca-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="8" y="8" width="11" height="11" rx="2"/><path d="M6 16H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section closing" aria-labelledby="close-title">
+      <div class="wrap reveal">
+        <p class="kicker">07 — Leave it</p>
+        <h2 id="close-title">Leave the brief.<br>Close the lid.</h2>
+        <p class="lede">Installers for macOS, Windows, and Linux are still being prepared. Until then, the docs describe how the night desk is meant to work, and the roadmap says what comes first.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="/docs/">Read the docs</a>
+          <a class="btn btn-ghost" href="/roadmap/">View the roadmap</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="/">
+          <img class="brand-mark" src="/assets/mark.svg" width="28" height="28" alt="">
+          <span class="brand-word">onyra</span>
+        </a>
+        <p>The agent that never sleeps.</p>
+      </div>
+      <nav aria-label="Footer">
+        <p class="footer-label">Navigate</p>
+        <ul>
+          <li><a href="/agent/">Agent</a></li>
+          <li><a href="/cloud/">Cloud</a></li>
+          <li><a href="/wallet/">Wallet</a></li>
+          <li><a href="/token/">Token</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="More">
+        <p class="footer-label">Visit</p>
+        <ul>
+          <li><a href="/docs/">Docs</a></li>
+          <li><a href="/roadmap/">Roadmap</a></li>
+          <li><a href="/docs/#install">Install</a></li>
+        </ul>
+      </nav>
+      <div class="footer-aside">
+        <p class="footer-label">Contract</p>
+        <button type="button" class="ca-chip" data-ca-copy>
+          <span data-ca-label>CA: coming soon</span>
+          <svg class="ca-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="8" y="8" width="11" height="11" rx="2"/><path d="M6 16H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        </button>
+        <a class="x-link" data-x-link href="https://x.com/onyraai" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M14.7 10.3 22.4 1.5h-1.8l-6.7 7.6L8.2 1.5H1.6l8.1 11.8L1.6 22.5h1.8l7.1-8.1 5.7 8.1h6.6l-8.1-12.2Zm-2.5 2.8-.8-1.2L4.2 3h2.8l5.3 7.5.8 1.2 7 10h-2.8l-5.1-7.6Z"/></svg>
+          <span data-x-handle>@onyraai</span>
+        </a>
+      </div>
+    </div>
+    <p class="footer-legal">© <span data-year>2026</span> Onyra. Pre-release. The agent is not yet available to install, and the $ONYRA contract is not live. Figures on the token page are a draft, not an offer.</p>
+  </footer>
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+  <script src="/js/config.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
