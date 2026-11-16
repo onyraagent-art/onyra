@@ -1,5 +1,14 @@
 # Onyra
 
+[![X @onyraagent](https://img.shields.io/badge/X-@onyraagent-111111?logo=x&logoColor=white)](https://x.com/onyraagent)
+
+## Links
+
+- **Website:** https://onyraai.com
+- **X:** https://x.com/onyraagent (@onyraagent)
+- **GitHub:** https://github.com/onyraagent-art/onyra
+- **$ONYRA CA:** coming soon — only trust @onyraagent and onyraai.com
+
 Marketing site for **Onyra**, the agent that never sleeps. Onyra is pre-release: this site describes the product, it does not offer a download.
 
 The site is static HTML, CSS, and JavaScript. There is no build step.
