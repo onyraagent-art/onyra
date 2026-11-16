@@ -40,7 +40,7 @@ contractAddress: ""
 
 Leave it empty and the site shows **CA: coming soon**. When the contract is published, set `contractAddress` to the full address. The footer chip, the home teaser, and the token page all update from that value. The copy button copies the address only after it is set.
 
-The X handle and ticker live in the same file.
+The X account is [@onyraagent](https://x.com/onyraagent). The handle and ticker live in the same file (`xHandle` and `xUrl`).
 
 ## GitHub Pages
 

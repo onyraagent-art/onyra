@@ -1218,20 +1218,25 @@ td:first-child { color: var(--silver); }
   color: var(--faint);
   font-size: 0.92rem;
 }
-.github-link {
+.footer-marks {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: auto;
+  flex: none;
+}
+.footer-marks a {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin-left: auto;
-  flex: none;
   color: var(--muted);
   font-family: var(--mono);
   font-size: 0.82rem;
   letter-spacing: 0.02em;
   white-space: nowrap;
 }
-.github-link svg { width: 18px; height: 18px; }
-.site-footer .github-link:hover { color: var(--silver); }
+.footer-marks svg { width: 18px; height: 18px; }
+.site-footer .footer-marks a:hover { color: var(--silver); }
 .source-line { margin-top: 28px; }
 
 .toast {

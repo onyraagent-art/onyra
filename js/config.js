@@ -11,8 +11,8 @@ window.ONYRA = {
   ticker: "$ONYRA",
   symbol: "ONYRA",
   contractAddress: "",
-  xHandle: "@onyraai",
-  xUrl: "https://x.com/onyraai",
+  xHandle: "@onyraagent",
+  xUrl: "https://x.com/onyraagent",
   githubUrl: "https://github.com/onyraagent-art/onyra",
   tagline: "The agent that never sleeps."
 };
